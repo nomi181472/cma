@@ -10,25 +10,26 @@ const Header = () => (
         <div className="w-12 mr-3">
           <LogoIcon />
         </div>
-        Lander
+        MA Construction
+        
       </div>
       <div className="flex mt-4 sm:mt-0">
-        <AnchorLink className="px-4" href="#features">
-          Features
+        
+        <AnchorLink className="px-4" href="#about">
+          ABOUT
         </AnchorLink>
+
         <AnchorLink className="px-4" href="#services">
-          Services
+         SERVICES
         </AnchorLink>
-        <AnchorLink className="px-4" href="#stats">
-          Stats
+        <AnchorLink className="px-4" href="#contact-us">
+          CONTACT US
         </AnchorLink>
-        <AnchorLink className="px-4" href="#testimonials">
-          Testimonials
+        <AnchorLink className="px-4" href="#career">
+          CAREERS
         </AnchorLink>
       </div>
-      <div className="hidden md:block">
-        <Button className="text-sm">Start Free Trial</Button>
-      </div>
+
     </div>
   </header>
 );

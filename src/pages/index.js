@@ -9,142 +9,195 @@ import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
+import buildAndDesign from "../../public/images/build-and-design.png" 
+import laminatingFloor from "../../public/images/laminating-floor.png" 
+import houseRenovation from "../../public/images/house-renovation.png" 
+import buildingConstruction from "../../public/images/building-construction.png" 
+import management from "../../public/images/management.png" 
+import planing from "../../public/images/planing.png" 
+import green from "../../public/images/green.png" 
+import architecture from "../../public/images/architecture.png" 
+import interior from "../../public/images/interior.png" 
 
 const Index = () => (
   <Layout>
-    <section className="pt-20 md:pt-40">
-      <div className="container mx-auto px-8 lg:flex">
-        <div className="text-center lg:text-left lg:w-1/2">
-          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Main title of your landing page
-          </h1>
-          <p className="text-xl lg:text-2xl mt-6 font-light">
-            Free landing page template to promote your business startup and generate leads for the
-            offered services
-          </p>
-          <p className="mt-8 md:mt-12">
-            <Button size="lg">Get Started</Button>
-          </p>
-          <p className="mt-4 text-gray-600">Sed fermentum felis ut cursu</p>
-        </div>
-        <div className="lg:w-1/2">
-          <HeroImage />
-        </div>
-      </div>
-    </section>
-    <section id="features" className="py-20 lg:pb-40 lg:pt-48">
+
+    <section id="about" className="py-20 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-5xl font-semibold">Main Features</h2>
+        <h2 className="text-3xl lg:text-5xl font-semibold">About Us</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
-            <Card className="mb-8">
-              <p className="font-semibold text-xl">Service One</p>
+            <Card className="mb-8" padding="12">
+              <h1 className="font-semibold text-xl">Who We Are</h1>
               <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
-              </p>
-            </Card>
-          </div>
-          <div className="flex-1 px-3">
-            <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Two</p>
-              <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
-              </p>
-            </Card>
-          </div>
-          <div className="flex-1 px-3">
-            <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Three</p>
-              <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+                Our extensive knowledge and comprehensive approach
+                can help guide you through a wide range of options
+                such as concrete pavers, retaining walls
               </p>
             </Card>
           </div>
         </div>
       </div>
     </section>
-    <SplitSection
-      id="services"
-      primarySlot={
-        <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">Market Analysis</h3>
-          <p className="mt-8 text-xl font-light leading-relaxed">
-            Our team of enthusiastic marketers will analyse and evaluate how your company stacks
-            against the closest competitors
-          </p>
-        </div>
-      }
-      secondarySlot={<SvgCharts />}
-    />
-    <SplitSection
-      reverseOrder
-      primarySlot={
-        <div className="lg:pl-32 xl:pl-48">
-          <h3 className="text-3xl font-semibold leading-tight">
-            Design And Plan Your Business Growth Steps
-          </h3>
-          <p className="mt-8 text-xl font-light leading-relaxed">
-            Once the market analysis process is completed our staff will search for opportunities
-            that are in reach
-          </p>
-        </div>
-      }
-      secondarySlot={<SvgCharts />}
-    />
-    <SplitSection
-      primarySlot={
-        <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">
-            Search For Performance Optimization
-          </h3>
-          <p className="mt-8 text-xl font-light leading-relaxed">
-            With all the information in place you will be presented with an action plan that your
-            company needs to follow
-          </p>
-        </div>
-      }
-      secondarySlot={<SvgCharts />}
-    />
-    <section id="stats" className="py-20 lg:pt-32">
+    <section id="services" className="py-20 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
-        <LabelText className="text-gray-600">Our customers get results</LabelText>
-        <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
-          <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
+        <h2 className="text-3xl lg:text-5xl font-semibold">What we provide</h2>
+        <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
+          <div className="flex-1 px-3">
+            <p className="font-semibold text-xl">Design and Build</p>
+            <Card className="mb-8" padding="0">
+
+
+              <img className="card-img-top" 
+              src={buildAndDesign} alt="Card image cap" />
+
+            </Card>
           </div>
-          <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
+          <div className="flex-1 px-3">
+            <p className="font-semibold text-xl">Laminate Flooring</p>
+            <Card className="mb-8" padding="0">
+
+
+              <img className="card-img-top" 
+              src={laminatingFloor} alt="Card image cap" />
+
+            </Card>
           </div>
-          <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
+          <div className="flex-1 px-3">
+            <p className="font-semibold text-xl">House Renovation</p>
+            <Card className="mb-8" padding="0">
+
+
+              <img className="card-img-top"
+               src={houseRenovation} alt="Card image cap" />
+
+            </Card>
+          </div>
+
+
+        </div>
+        <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
+          <div className="flex-1 px-3">
+            <p className="font-semibold text-xl">Building construction</p>
+            <Card className="mb-8" padding="0">
+
+
+              <img className="card-img-top" 
+              src={buildingConstruction} alt="Card image cap" />
+
+            </Card>
+          </div>
+          <div className="flex-1 px-3">
+            <p className="font-semibold text-xl">Management Work</p>
+            <Card className="mb-8" padding="0">
+
+
+              <img className="card-img-top" 
+              src={management} alt="Card image cap" />
+
+            </Card>
+          </div>
+          <div className="flex-1 px-3">
+            <p className="font-semibold text-xl">Construction Planning</p>
+            <Card className="mb-8" padding="0">
+
+
+              <img className="card-img-top" 
+              src={planing} alt="Card image cap" />
+
+            </Card>
+          </div>
+
+
+        </div>
+        <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
+          <div className="flex-1 px-3">
+            <p className="font-semibold text-xl">Green Building</p>
+            <Card className="mb-8" padding="0">
+
+
+              <img className="card-img-top"
+               src={green} alt="Card image cap" />
+
+            </Card>
+          </div>
+          <div className="flex-1 px-3">
+            <p className="font-semibold text-xl">Architecture Design</p>
+            <Card className="mb-8" padding="0">
+
+
+
+              <img className="card-img-top" 
+              src={architecture} alt="Card image cap" />
+
+            </Card>
+          </div>
+          <div className="flex-1 px-3">
+            <p className="font-semibold text-xl">Interior Design</p>
+            <Card className="mb-8" padding="0">
+
+
+              <img className="card-img-top" 
+             src={interior} alt="Card image cap" />
+
+            </Card>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+    <section id="contact-us" className="py-20 lg:pb-40 lg:pt-48">
+      <div className="container mx-auto text-center">
+        <h2 className="text-3xl lg:text-5xl font-semibold">Contact With Us</h2>
+        <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
+          <div className="flex-1 px-3">
+            <Card className="mb-8" padding="12">
+             
+              
+              <h1 className="font-semibold text-xl">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</h1>
+        <p className="mt-4">
+              Mobile No.1: <a href='tel'>0321-2000191</a>
+              </p>
+              <p className="mt-4">
+              Mobile No.2: <a href='tel'>0336-8283405</a>
+              </p>
+              <p className="mt-4">
+              PTCL No: <a href='tel'>021-35653005-6</a>
+              </p>
+              <address>
+                Visit us at:<br/>
+                Office No. 603, 6th Floor,<br/>
+                Trade Tower, Abdullah Haroon Road,<br/>
+                Saddar, Karachi
+                </address>
+            </Card>
           </div>
         </div>
       </div>
     </section>
-    <section id="testimonials" className="py-20 lg:py-40">
-      <div className="container mx-auto">
-        <LabelText className="mb-8 text-gray-600 text-center">What customers are saying</LabelText>
-        <div className="flex flex-col md:flex-row md:-mx-3">
-          {customerData.map(customer => (
-            <div key={customer.customerName} className="flex-1 px-3">
-              <CustomerCard customer={customer} />
-            </div>
-          ))}
+    
+
+
+    
+    <section id="career" className="py-20 lg:pb-40 lg:pt-48">
+      <div className="container mx-auto text-center">
+        <h2 className="text-3xl lg:text-5xl font-semibold">Careers</h2>
+        <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
+          <div className="flex-1 px-3">
+            <Card className="mb-8" padding="12">
+              <h1 className="font-semibold text-xl">Email Us</h1>
+              <p className="mt-4">
+                your resume at <a href="mailto:name@email.com">example@ma.com</a> 
+              </p>
+            </Card>
+          </div>
         </div>
       </div>
     </section>
-    <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
-      <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
-      <p className="mt-8 text-xl font-light">
-        Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus in.
-      </p>
-      <p className="mt-8">
-        <Button size="xl">Get Started Now</Button>
-      </p>
-    </section>
+
+    
   </Layout>
 );
 
