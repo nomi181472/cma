@@ -9,15 +9,15 @@ import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
-import buildAndDesign from "../../public/images/build-and-design.png" 
-import laminatingFloor from "../../public/images/laminating-floor.png" 
-import houseRenovation from "../../public/images/house-renovation.png" 
-import buildingConstruction from "../../public/images/building-construction.png" 
-import management from "../../public/images/management.png" 
-import planing from "../../public/images/planing.png" 
-import green from "../../public/images/green.png" 
-import architecture from "../../public/images/architecture.png" 
-import interior from "../../public/images/interior.png" 
+import buildAndDesign from "../images/build-and-design.png" 
+import laminatingFloor from "../images/laminating-floor.png" 
+import houseRenovation from "../images/house-renovation.png" 
+import buildingConstruction from "../images/building-construction.png" 
+import management from "../images/management.png" 
+import planing from "../images/planing.png" 
+import green from "../images/green.png" 
+import architecture from "../images/architecture.png" 
+import interior from "../images/interior.png" 
 
 const Index = () => (
   <Layout>
