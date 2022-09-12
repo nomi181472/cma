@@ -30,9 +30,9 @@ const Index = () => (
             <Card className="mb-8" padding="12">
               <h1 className="font-semibold text-xl">Who We Are</h1>
               <p className="mt-4">
-                Our extensive knowledge and comprehensive approach
-                can help guide you through a wide range of options
-                such as concrete pavers, retaining walls
+              M&amp;A Construction Company is a highly experienced team of civil engineers, land surveyors, and other construction workers, which is dedicated to putting more detail into your requirement when you need it. M&amp;A is committed to responding to your quotation requests as quickly as possible, most prices are provided within one day or two days. We offer extensive experience in a range of civil, earthwork, infrastructure, road work, land survey &amp; mapping services.
+M&amp;A takes pride in producing high-quality Civil, Earthwork, Survey, and Mapping AutoCAD drawings, ArcGIS drawings, and 3D models with a survey solution tailored to the specific needs of your project. Each member of our team promotes our company policies and is a “walking talking” advocate of what we do. In turn, they are fully supported in their personal development within our growing company.
+Our people bring their technical knowledge, experience, and resourcefulness to the delivery of our construction services. Driven by a commitment to continuous improvement, Turner embraces Building Information Modeling and lean construction methods to improve efficiency and enhance client value.
               </p>
             </Card>
           </div>
