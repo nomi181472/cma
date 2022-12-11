@@ -166,6 +166,15 @@ Our people bring their technical knowledge, experience, and resourcefulness to t
               <p className="mt-4">
               PTCL No: <a href='tel'>021-35653005-6</a>
               </p>
+              <p className="mt-4">
+              <a href='mailto:name@email.com'>Amjad@maconstructionpk.com</a>
+             
+              </p>
+              <p className="mt-4">
+              <a href='mailto:name@email.com'>Mukhtiar@maconstructionpk.com</a>
+             
+              </p>
+              
               <address>
                 Visit us at:<br/>
                 Office No. 603, 6th Floor,<br/>
@@ -189,7 +198,7 @@ Our people bring their technical knowledge, experience, and resourcefulness to t
             <Card className="mb-8" padding="12">
               <h1 className="font-semibold text-xl">Email Us</h1>
               <p className="mt-4">
-                your resume at <a href="mailto:name@email.com">example@ma.com</a> 
+                your resume at <a href="mailto:name@email.com">Info@maconstructionpk.com</a> 
               </p>
             </Card>
           </div>
