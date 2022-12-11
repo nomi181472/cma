@@ -10,7 +10,7 @@ const Header = () => (
         <div className="w-12 mr-3">
           <LogoIcon />
         </div>
-        M&amp;A Construction
+        M&amp;A Construction Company
         
       </div>
       <div className="flex mt-4 sm:mt-0">
